@@ -4,7 +4,7 @@ ENV VERSION=v15.0.0 NPM_VERSION=7 YARN_VERSION=v1.22.10
 
 WORKDIR /app
 
-COPY package.json .
+COPY package*.json ./
 
 RUN npm install
 
