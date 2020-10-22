@@ -1,4 +1,5 @@
 # Robo Joker
+![](https://github.com/TomKiWorld/RoboJoker/blob/master/public/robo-joker-192x192.png?raw=true)
 
 ## Preview
 
