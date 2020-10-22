@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 import { Container, CtaBtn } from './styledComponents/styledComponents';
 import AudioElm from './components/AudioElm/AudioElm';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   useEffect(() => {   
@@ -55,6 +56,7 @@ const App = () => {
         disabled={disabled}
       >Tell me a Joke</CtaBtn>
       <AudioElm />
+      <Footer />
     </Container>
   );
 }
