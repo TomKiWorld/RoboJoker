@@ -1,5 +1,5 @@
 # Robo Joker
-![](https://github.com/TomKiWorld/RoboJoker/blob/master/public/robo-joker-192x192.png?raw=true)
+![](https://raw.githubusercontent.com/TomKiWorld/RoboJoker/main/public/robo-joker-192x192.png)
 
 ## Usage 
 A fun [React](https://github.com/facebook/create-react-app) exercise connection to a [jokeapi](https://sv443.net/jokeapi/v2/) to fetch a random joke and tells it using the [Voice Rss API](http://www.voicerss.org/).
