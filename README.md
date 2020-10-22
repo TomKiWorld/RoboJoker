@@ -6,7 +6,7 @@
 ## Usage 
 A fun [React](https://github.com/facebook/create-react-app) exercise connection to a [jokeapi](https://sv443.net/jokeapi/v2/) to fetch a random joke and tells it using the [Voice Rss API](http://www.voicerss.org/).
 
-Used Docker to run locally and set up on an AWS server.
+Uses Docker to run and Travis-CI for testing and deploying to an AWS server.
 
 ## Available Scripts
 
