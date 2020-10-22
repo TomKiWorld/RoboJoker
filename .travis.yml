@@ -8,3 +8,15 @@ before_install:
 
 script:
   - docker run -e CI=true tomkiworld/robo-joker npm run test
+
+deploy:
+  provider: elasticbeanstalk
+  region: "eu-central-1"
+  app: "robo-joker"
+  env: "RoboJoker-env"
+  bucket_name: "elasticbeanstalk-eu-central-1-373977704284"
+  bucket_path: "robo-joker"
+  on:
+    branch: main
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
